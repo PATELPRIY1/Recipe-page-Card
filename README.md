@@ -17,11 +17,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop_image](./assets/screenShot/desktop_image.png)
+![mobile_image](./assets/screenShot/mobile_image.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:(https://github.com/PATELPRIY1/Recipe-page-Card.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
