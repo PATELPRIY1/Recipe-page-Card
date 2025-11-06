@@ -66,7 +66,7 @@ p {
 
 .recipe-card {
   max-width: 46em;
-  padding: 2.5em;
+  padding: clamp(1.5rem, 1rem + 2vw, 2.5rem);
   background: var(--clr-white);
   margin: 4em auto;
   border-radius: 1.25em;
