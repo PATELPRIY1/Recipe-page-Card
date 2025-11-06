@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-very-light-stone: hsl(30, 54%, 90%);
+  --clr-light-stone: hsl(30, 18%, 87%);
+  --clr-stone: hsl(30, 10%, 34%);
+  --clr-dark-stone: hsl(24, 5%, 18%);
+  --clr-brown: hsl(14, 45%, 36%);
+  --clr-dark-rose: hsl(332, 51%, 32%);
+  --clr-light-rose: hsl(330, 100%, 98%);
+
+  --clr-primary-font: "Young Serif", serif;
+  --clr-secondary-font: "Outfit", sans-serif;
+}
+
+body {
+  font-family: var(--clr-secondary-font);
+  font-size: 1rem;
+  background: var(--clr-very-light-stone);
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: var(--clr-primary-font);
+  margin-bottom: 0.4em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--clr-dark-stone);
+}
+
+h2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--clr-brown);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--clr-dark-rose);
+  margin-bottom: 0.5em;
+}
+
+p {
+  display: inline;
+  color: var(--clr-stone);
+  margin-bottom: 1em;
+}
+
+.recipe-card {
+  max-width: 46em;
+  padding: 2.5em;
+  background: var(--clr-white);
+  margin: 4em auto;
+  border-radius: 1.25em;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.recipe-card img {
+  border-radius: 0.625em;
+  margin-bottom: 2.5em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.preparation-time {
+  background: var(--clr-light-rose);
+  margin-top: 3em;
+  padding: 2em;
+  border-radius: 1.25em;
+}
+
+ul {
+  margin-left: 2em;
+}
+li {
+  padding: 0.5em 1em;
+  font-size: 1.125rem;
+  color: var(--clr-dark-stone);
+}
+
+.instruction-details li{
+  list-style-type: decimal;
+}
+
+.instruction-details li::marker{
+  color: var(--clr-brown);
+}
+
+.nutrition p{
+  display: block;
+  margin: 1.5em 0;
+}
+
+table{
+  width: 100%;
+}
+td{
+  border-bottom: 1px solid var(--clr-light-stone);
+  padding: 1em 2em;
+}
+
+.category{
+  color: var(--clr-dark-stone);
+}
+
+.property{
+  color: var(--clr-brown);
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
