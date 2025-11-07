@@ -109,7 +109,7 @@ li {
 }
 
 .nutrition p{
-  display: block;
+  display: unset;
   margin: 1.5em 0;
 }
 
