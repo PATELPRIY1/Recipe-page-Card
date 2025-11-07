@@ -70,7 +70,7 @@ p {
   background: var(--clr-white);
   margin: 4em auto;
   border-radius: 1.25em;
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 0.4);
 }
 
 .recipe-card img {
